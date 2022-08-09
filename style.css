@@ -69,5 +69,24 @@ main > * {
 }
 
 /* media queries */
-
+@media screen and (max-width: 768px) {
 /* YOUR CODE HERE */
+  main{
+    align-items: center;
+  }
+  .airplane-list-container{
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 0rem;
+  }
+  .airplane-card{
+    width: 100%;
+    margin: 1rem;
+    align-items: center;
+  }
+  header{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
